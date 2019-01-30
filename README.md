@@ -14,6 +14,14 @@ Linux: http://ssb.stsci.edu/releases/jwstdp/0.12.3/latest-linux
 
 OS X: http://ssb.stsci.edu/releases/jwstdp/0.12.3/latest-osx
 
+Jupyter should also be installed into this environment to use these notebooks:
+
+```bash
+source activate jwst
+
+conda install -y jupyter
+```
+
 The CRDS context should be set to jwst_0500.pmap for this build. Also, standard CRDS environment variables should be set. E.g., for bash:
 
 ```bash
